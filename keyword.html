@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>키워드 추천 페이지</title>
+    <link rel="stylesheet" href="./css/keyword.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="./index.html" style="color: black;">likelion</a></h1>
+        <button class="loginBtn" onclick="location.href='./login.html'"><i class="bi bi-box-arrow-in-right"
+                style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Login</a></button>
+        <button class="registerBtn" onclick="location.href='./register.html'"><i class="bi bi-person-add"
+                style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Register</a></button>
+    </header>
+    <h1 class="highlight">키워드 기반 추천 서비스</h1>
+    <p>원하는 키워드들을 선택해주세요!</p>
+    <div class="keywordWrap">
+        <fieldset class="box">
+            <legend>장소</legend>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">서해</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">동해</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">남해</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">수도권</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">충청도</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">강원도</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">전라도</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">경상도</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="location" name="location">
+                <label for="location" id="location">제주</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="box">
+            <legend>분위기</legend>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">신선한</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">자연적인</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">사진 찍기 좋은</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">조용한</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">멋진</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">왁자지껄한</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">사람이 적은</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">새로운</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">호화로운</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">야경이 멋진</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="mood" name="mood">
+                <label for="mood" id="mood">고즈넉한</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="box">
+            <legend>인원</legend>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">1인 여행</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">2인 여행</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">3인 여행</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">4인 여행</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">5인 이상</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="personNum" name="personNum">
+                <label for="personNum" id="personNum">단체 여행</label>
+            </div>
+        </fieldset>
+        
+        <fieldset class="box">
+            <legend>놀거리</legend>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">빠지</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">다이빙</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">스쿠버</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">캠핑</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">해변 활동</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">서핑</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">수영</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="leisure" name="leisure">
+                <label for="leisure" id="leisure">모터보트</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="box">
+            <legend>대여가능물품</legend>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">튜브</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">수영복</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">파라솔</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">돗자리(매트)</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">오리발</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">서핑 보드</label>
+            </div>
+            <div class="boxWrap">
+                <input type="checkbox" id="rental" name="rental">
+                <label for="rental" id="rental">비치 베드</label>
+            </div>
+        </fieldset>
+        <button class="saveBTN">여행지 찾기!</button>
+    </div>
+</body>
+</html>

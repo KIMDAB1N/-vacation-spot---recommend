@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>휴양지 추천 사이트</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slide.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/def66b134a.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <h1 class="logo"><a href="#">likelion</a></h1>
+        <div class="menu">
+            <ul>
+                <li><a href="#">추천여행지</a></li>
+                <li><a href="./keyword.html">키워드기반검색</a></li>
+                <li><a href="./weather.html">날씨 검색</a></li>
+            </ul>
+        </div>
+        <button class="loginBtn" onclick="location.href='./login.html'"><i class="bi bi-box-arrow-in-right" style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Login</a></button>
+        <button class="registerBtn" onclick="location.href='./register.html'"><i class="bi bi-person-add" style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Register</a></button>
+    </header>
+<!--     body 윗부분 (바다영상 부분) -->
+    <mp4Container>
+        <div class="mainText">
+            <span>가고 싶은 바다를</span><br />
+            <span>찾아보세요!</span>
+        </div>
+        <video class="mainMP4" src="assets/oceanMP4.mp4" autoplay muted loop></video>
+    </mp4Container>
+    <div class="scrollPopUp">
+        <a><span></span></a>
+    </div>
+
+<!--     스크롤 시 보이는 화면 -->
+    <section>
+        <div class="container reveal">
+            <div class="text-container">
+                <div class="text-box">Recommended Destination</div>
+            </div>
+
+<!--             추천 여행지 슬라이드 -->
+            <div>
+                <section class="slide">
+                    <div class="swiper mySwiper container">
+                        <div class="swiper-wrapper content">
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea1.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">중문색달 해수욕장</span>
+                                        <span class="profession">제주특별자치도 서귀포시</span>
+                                    </div>
+            
+                                    <div class="command">
+                                        <p>서퍼들이 사랑하는 중문색달해수욕장</p>
+                                    </div>
+            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea2.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">협재 해수욕장</span>
+                                        <span class="profession">제주특별자치도 제주시</span>
+                                    </div>
+                                    
+                                    <div class="command">
+                                        <p>하얀 모래와 에메랄드빛 바다가 눈부신 <br> 협재해수욕장</p>
+                                    </div>
+                                    
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea3.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">해운대 해수욕장</span>
+                                        <span class="profession">부산 해운대구</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>온 가족이 함께 즐기는 해운대 해수욕장</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more" onclick="location.href='./detail.html'">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea4.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">경포대 해수욕장</span>
+                                        <span class="profession">강원도 강릉시</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>소나무 숲 너머로 펼쳐지는 아름다운 <br> 경포대 해수욕장</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea5.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">송정 해수욕장</span>
+                                        <span class="profession">부산 해운대구</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>작지만 알찬 해변 송정 해수욕장</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea6.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">학동흑진주 몽돌 해수욕장</span>
+                                        <span class="profession">경남 거제시</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>걷기만 해도 기분 좋은 <br>학동흑진주 몽돌 해수욕장</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea7.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">우도 서빈백사</span>
+                                        <span class="profession">제주시 우도면</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>산호가 부서져 만든 신비로운 해변 서빈백사</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea8.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">우전 해수욕장</span>
+                                        <span class="profession">전남 신안군</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>고요한 바다 풍경을 감상할 수 있는 <br> 우전 해수욕장</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide card">
+                                <div class="card-content">
+                                    <div class="image">
+                                        <img src="./assets/img/sea9.png" alt="">
+                                    </div>
+                                    <div class="name-profession">
+                                        <span class="name">상주 은모래 해변</span>
+                                        <span class="profession">경남 남해군</span>
+                                    </div>
+                            
+                                    <div class="command">
+                                        <p>깨끗하고 넓은 모래 해변이 일품인 <br> 상주 은모래 비치</p>
+                                    </div>
+                            
+                                    <div class="button">
+                                        <button class="more">더보기</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </section>
+        </div>
+    </section>
+
+
+<script>
+
+    function categoryChange(e) {
+            const state = document.getElementById("state");
+
+            const gangwon = ["강릉시", "동해시", "삼척시", "속초시", "원주시", "춘천시", "태백시", "고성군", "양구군", "양양군", "영월군", "인제군", "정선군", "철원군", "평창군", "홍천군", "화천군", "횡성군"];
+            const gyeonggi = ["고양시", "과천시", "광명시", "광주시", "구리시", "군포시", "김포시", "남양주시", "동두천시", "부천시", "성남시", "수원시", "시흥시", "안산시", "안성시", "안양시", "양주시", "오산시", "용인시", "의왕시", "의정부시", "이천시", "파주시", "평택시", "포천시", "하남시", "화성시", "가평군", "양평군", "여주군", "연천군"];
+            const gyeongsangnam = ["거제시", "김해시", "마산시", "밀양시", "사천시", "양산시", "진주시", "진해시", "창원시", "통영시", "거창군", "고성군", "남해군", "산청군", "의령군", "창녕군", "하동군", "함안군", "함양군", "합천군"];
+            const gyeongsangbuk = ["경산시", "경주시", "구미시", "김천시", "문경시", "상주시", "안동시", "영주시", "영천시", "포항시", "고령군", "군위군", "봉화군", "성주군", "영덕군", "영양군", "예천군", "울릉군", "울진군", "의성군", "청도군", "청송군", "칠곡군"];
+            const gwangju = ["광산구", "남구", "동구", "북구", "서구"];
+            const daegu = ["남구", "달서구", "동구", "북구", "서구", "수성구", "중구", "달성군"];
+            const daejeon = ["대덕구", "동구", "서구", "유성구", "중구"];
+            const busan = ["강서구", "금정구", "남구", "동구", "동래구", "부산진구", "북구", "사상구", "사하구", "서구", "수영구", "연제구", "영도구", "중구", "해운대구", "기장군"];
+            const seoul = ["강남구", "강동구", "강북구", "강서구", "관악구", "광진구", "구로구", "금천구", "노원구", "도봉구", "동대문구", "동작구", "마포구", "서대문구", "서초구", "성동구", "성북구", "송파구", "양천구", "영등포구", "용산구", "은평구", "종로구", "중구", "중랑구"];
+            const ulsan = ["남구", "동구", "북구", "중구", "울주군"];
+            const incheon = ["계양구", "남구", "남동구", "동구", "부평구", "서구", "연수구", "중구", "강화군", "옹진군"];
+            const jeonnam = ["광양시", "나주시", "목포시", "순천시", "여수시", "강진군", "고흥군", "곡성군", "구례군", "담양군", "무안군", "보성군", "신안군", "영광군", "영암군", "완도군", "장성군", "장흥군", "진도군", "함평군", "해남군", "화순군"];
+            const jeonbuk = ["군산시", "김제시", "남원시", "익산시", "전주시", "정읍시", "고창군", "무주군", "부안군", "순창군", "완주군", "임실군", "장수군", "진안군"];
+            const jeju = ["서귀포시", "제주시", "남제주군", "북제주군"];
+            const chungbuk = ["제천시", "청주시", "충주시", "괴산군", "단양군", "보은군", "영동군", "옥천군", "음성군", "증평군", "진천군", "청원군"];
+            const chungnam = ["천안시","공주시","당진시","보령시","보령시","아산시","서산시","논산시","계룡시","금산군","부여군","서천군","청양군","홍성군","예산군","태안군"]
+            if (e.value == "general01") {
+                add = gangwon;
+            } else if (e.value == "general02") {
+                add = gyeonggi;
+            } else if (e.value == "general03") {
+                add = gyeongsangnam;
+            } else if (e.value == "general04") {
+                add = gyeongsangbuk;
+            } else if (e.value == "general05") {
+                add = gwangju;
+            } else if (e.value == "general06") {
+                add = daegu;
+            } else if (e.value == "general07") {
+                add = daejeon;
+            } else if (e.value == "general08") {
+                add = busan;
+            } else if (e.value == "general09") {
+                add = seoul;
+            } else if (e.value == "general10") {
+                add = ulsan;
+            } else if (e.value == "general11") {
+                add = incheon;
+            } else if (e.value == "general12") {
+                add = jeonnam;
+            } else if (e.value == "general13") {
+                add = jeonbuk;
+            } else if (e.value == "general14") {
+                add = jeju;
+            } else if (e.value == "general15") {
+                add = chungnam;
+            } else if (e.value == "general16") {
+                add = chungbuk;
+            } else {
+                add = busan;
+            }
+
+            state.options.length = 1;
+            // 군/구 갯수;
+
+            for (property in add) {
+                let opt = document.createElement("option");
+                opt.value = add[property];
+                opt.innerHTML = add[property];
+                state.appendChild(opt);
+            }
+        }
+
+   function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 200;
+
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            } else {
+                reveals[i].classList.remove("active");
+            }
+        }
+    }
+
+    window.addEventListener("scroll", reveal);
+</script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="/js/script.js"></script>
+
+</body>
+
+</html>

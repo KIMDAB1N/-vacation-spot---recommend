@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세페이지</title>
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<div>
+    <!-- 헤더 -->
+    <header>
+        <h1 class="logo"><a href="./index.html" style="color: black;">likelion</a></h1>
+        <div class="menu">
+            <ul>
+                <li><a href="#" style="color: black; font-weight: bold;">추천여행지</a></li>
+                <li><a href="./keyword.html" style="color: black; font-weight: bold;">키워드기반검색</a></li>
+                <li><a href="./weather.html" style="color: black; font-weight: bold;">날씨 검색</a></li>
+            </ul>
+        </div>
+        <button class="loginBtn" onclick="location.href='./login.html'"><i class="bi bi-box-arrow-in-right"
+                style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Login</a></button>
+        <button class="registerBtn" onclick="location.href='./register.html'"><i class="bi bi-person-add"
+                style="color: white; font-weight: bold; margin-right: 8px;"></i><a>Register</a></button>
+    </header>
+    <h2 class="name">해운대 해수욕장</h2>
+    <p class="location">부산 해운대구</p>
+    <p class="intro"><span class="highlight">사시사철 젊은 열기로 뜨거운 부산의 대표 해수욕장</span></p>
+
+    <!-- 슬라이드쇼 컨테이너 -->
+    <div class="slideshow-container">
+    
+        <!-- 숫자와 캡션이 있는 이미지 -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 5</div>
+            <img src="./assets/img/해운대1.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 5</div>
+            <img src="./assets/img/해운대2.png" style="width:100%">
+        </div>
+    
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 5</div>
+            <img src="./assets/img/해운대3.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="./assets/img/해운대4.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="./assets/img/해운대5.png" style="width:100%">
+        </div>
+        <!-- 다음, 이전 이미지 버튼 -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- 현재 이미지를 알려주는 하단의 점 -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <div class="descriptionWrap">
+        <p style="margin: 10px; font-size: 25px; font-weight: bold;">상세정보</p>
+        <div class="description">
+            <span style="width: 80vw;"><span class="highlight2">* 부산 대표 해수욕장, 해운대 해수욕장</span>
+            <br>
+            <span>
+                백사장의 길이 1.5km, 너비 30~50m, 평균수심 1m, 면적 58,400㎥의 규모로 넓은 백사장과 아름다운 해안선을 자랑하고 있으며 얕은 수심과 잔잔한
+                물결로 해수욕장의 최적 조건을 갖추고 있다. 
+                ''부산'' 하면 제일 먼저 떠올리는 곳이 해운대 해수욕장이라고 할 만큼 부산을 대표하는 명소이며, 해마다 여름철 피서객을 가늠하는 척도로 이용될 만큼 국내 최대 인파가 몰리는
+                곳이기도 하다. 특히, 해안선 주변에 크고 작은 빌딩들과 고급 호텔들이 우뚝 솟아있어 현대적이고 세련된 분위기의 해수욕장으로 유명하기 때문에 여름 휴가철뿐만 아니라 사시사철 젊은 열기로 붐비고 해외
+                관광객들에게도 잘 알려져 있어 외국인들이 많이 찾는 곳이다.
+            <br><br><br>
+            <span style="width: 80vw;"><span class="highlight2">* 해운대해수욕장의 다양한 축제와 즐길거리</span>
+            <br>
+                해운대해수욕장에서는 매년 정월 대보름날의 달맞이 축제를 진행하고 있다. 또한, 매년 겨울 주최하고 있는 북극곰수영대회는 이미 겨울철 대표 축제로 자리잡았다. 이외에도 모래 작품전, 부산 바다 축제
+                등 각종 크고 작은 행사들이 열리고 있다. 또한, 해수욕장 주변에 동백섬, 오륙도, 아쿠아리움 , 요트경기장, 벡스코 달맞이고개, 드라이브코스 등 볼거리가 많으며, 국내 1급 해수욕장답게 주변에는 일급
+                호텔을 비롯한 숙박, 오락시설 및 유흥 시설들이 잘 정비되어 있어 편안한 휴식을 즐길 수 있다.</span>
+        </div>
+    </div>
+    
+    <!-- 지도 마커 -->
+    <div class="mapframeInfo">
+        <div class="mapcontent">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13047.666985662085!2d129.16038419999998!3d35.158697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35688d5c0efe075f%3A0x9963b1d5c163ac98!2z7ZW07Jq064yA7ZW07IiY7JqV7J6l!5e0!3m2!1sko!2skr!4v1685363295306!5m2!1sko!2skr"
+                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" width="300" height="300" style="border:0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info">
+            <div class="infoWrap">
+                <p class="headInfo">🔎 문의 및 안내</p>
+                <p class="detailInfo">051-749-5770</p>
+            </div>
+            <div class="infoWrap">
+                <p class="headInfo">📍 주소</p>
+                <p class="detailInfo">부산광역시 해운대구 해운대해변로 264</p>
+            </div>
+            <div class="infoWrap">
+                <p class="headInfo">⛔ 휴일</p>
+                <p class="detailInfo">연중무휴</p>
+            </div>
+            <div class="infoWrap">
+                <p class="headInfo">🔗 홈페이지</p>
+                <p class="detailInfo"><a style="color: #2e2e2e;" href="http://sunnfun.haeundae.go.kr/">http://sunnfun.haeundae.go.kr</a></p>
+            </div>
+            <div class="infoWrap">
+                <p class="headInfo">🕐 이용시간</p>
+                <p class="detailInfo">09:00 ~ 18:00</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="commentWrap">
+        <p style="font-size: 25px; font-weight: bold;">여행후기</p><p style="font-size: 20px; font-weight: lighter; margin-top: 5px; color: rgb(0, 89, 255);">(댓글수)</p>
+        <div class="writeCommentWrap">
+            <textarea class="writeComment"placeholder="📝여행 후기를 간단하게 남겨주세요!"></textarea>
+            <div class="star">
+                <fieldset class="rate">
+                    <input type="radio" id="rating10" name="rating" value="10"><label for="rating10" title="5점"></label>
+                    <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9" title="4.5점"></label>
+                    <input type="radio" id="rating8" name="rating" value="8"><label for="rating8" title="4점"></label>
+                    <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7" title="3.5점"></label>
+                    <input type="radio" id="rating6" name="rating" value="6"><label for="rating6" title="3점"></label>
+                    <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5" title="2.5점"></label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4" title="2점"></label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3" title="1.5점"></label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2" title="1점"></label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1" title="0.5점"></label>
+                </fieldset>
+            </div>
+            <button class="writeBTN">댓글작성 및 별점등록</button>
+        </div>
+        <div class="card-body">
+            <div class="readComment">
+                <div class="user">사용자1</div>
+                    <fieldset class="rate">
+                    <input type="radio" id="rating10" name="rating" value="10"><label for="rating10" title="5점"></label>
+                    <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9" title="4.5점"></label>
+                    <input type="radio" id="rating8" name="rating" value="8"><label for="rating8" title="4점"></label>
+                    <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7" title="3.5점"></label>
+                    <input type="radio" id="rating6" name="rating" value="6"><label for="rating6" title="3점"></label>
+                    <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5" title="2.5점"></label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4" title="2점"></label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3" title="1.5점"></label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2" title="1점"></label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1" title="0.5점"></label>
+                    </fieldset>
+            <br>    즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다
+            </div>
+            <div class="readComment">
+                <div class="user">사용자2</div>
+                <fieldset class="rate">
+                    <input type="radio" id="rating10" name="rating" value="10"><label for="rating10" title="5점"></label>
+                    <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9" title="4.5점"></label>
+                    <input type="radio" id="rating8" name="rating" value="8"><label for="rating8" title="4점"></label>
+                    <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7" title="3.5점"></label>
+                    <input type="radio" id="rating6" name="rating" value="6"><label for="rating6" title="3점"></label>
+                    <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5" title="2.5점"></label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4" title="2점"></label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3" title="1.5점"></label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2" title="1점"></label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1" title="0.5점"></label>
+                </fieldset>
+            <br>    즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다
+            </div>
+            <div class="readComment">
+                <div class="user">사용자3</div>
+                <fieldset class="rate">
+                    <input type="radio" id="rating10" name="rating" value="10"><label for="rating10" title="5점"></label>
+                    <input type="radio" id="rating9" name="rating" value="9"><label class="half" for="rating9" title="4.5점"></label>
+                    <input type="radio" id="rating8" name="rating" value="8"><label for="rating8" title="4점"></label>
+                    <input type="radio" id="rating7" name="rating" value="7"><label class="half" for="rating7" title="3.5점"></label>
+                    <input type="radio" id="rating6" name="rating" value="6"><label for="rating6" title="3점"></label>
+                    <input type="radio" id="rating5" name="rating" value="5"><label class="half" for="rating5" title="2.5점"></label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4" title="2점"></label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label class="half" for="rating3" title="1.5점"></label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2" title="1점"></label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label class="half" for="rating1" title="0.5점"></label>
+                </fieldset>
+            <br>    즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다즐겁다
+            </div>
+        </div>
+        <button class="moreComments">댓글 더보기 +</button>
+    </div>
+
+     <h2 class="goodPlace">💖 해운대 주변 핫플레이스 👍</h2>   
+    <div class="gridWrap">
+        <div class="good1">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 20px;">비비비당</h3>
+                <p>🍴 카페/디저트</p>
+                <p>📍 부산광역시 해운대구 달맞이길 239-16</p>
+                <p> 📞 051-746-0705</p>
+                <p>🕘 10:30 - 22:00</p>
+                <p>💰 만원-2만원</p>
+            </div>
+        </div>
+        <div class="good2">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 10px;">거대갈비</h3>
+                <p>🍴 고기 요리</p>
+                <p>📍 부산광역시 해운대구 달맞이길 22</p>
+                <p> 📞 051-746-0037</p>
+                <p>🕘 11:30 - 22:00
+                   <br>❌ 15:00 - 17:00
+                </p>
+                <p>💰 4만원 이상</p>
+            </div>
+        </div>
+        <div class="good3">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 10px;">해운대소문난암소갈비집</h3>
+                <p>🍴 고기 요리</p>
+                <p>📍 부산광역시 해운대구 중동2로10번길 32-10</p>
+                <p> 📞 051-746-0033</p>
+                <p>🕘 11:30 - 22:00
+                    <br>❌ 15:15 - 16:30
+                    <br> 🔔 20:50 라스트오더
+                </p>
+                <p>💰 4만원 이상</p>
+            </div>
+        </div>
+        <div class="good4">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 10px;">다이닝룸 파크 하얏트 부산</h3>
+                <p>🍴 스테이크/바베큐</p>
+                <p>📍 부산광역시 해운대구 마린시티1로 51 <br> 파크하얏트부산호텔 32F</p>
+                <p> 📞 051-990-1234</p>
+                <p>🕘 월-금: 06:30 - 22:00,
+                     토-일: 12:00 - 22:00
+                    <br>❌ 10:30 - 11:30,
+                            14:30 - 17:30
+                    <br> 🔔 21:00 라스트오더
+                </p>
+            </div>
+        </div>
+        <div class="good5">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 20px;">호랑이젤라떡</h3>
+                <p>🍴 카페/디저트</p>
+                <p>📍 부산광역시 해운대구 달맞이길62번길 38 <br> 115-116호</p>
+                <p> 📞 0507-1302-4130</p>
+                <p>💰 만원 미만</p>
+            </div>
+        </div>
+        <div class="good6">
+            <div class="goodDetail">
+                <br>
+                <h3 style="padding-left: 10px; margin-bottom: 20px;">해운대포장마차촌</h3>
+                <p>🍴 해산물 요리</p>
+                <p>📍 부산광역시 해운대구 해운대해변로 236</p>
+                <p>💰 4만원 이상</p>
+            </div>
+        </div>
+        <button class="goodMore">더보기 +</button>
+    </div>
+    
+</body>
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// 다음, 이전 제어
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// 사진 제어
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+</script>
+</html>
